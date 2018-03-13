@@ -31,6 +31,13 @@ namespace S4et
             Console.WriteLine($"Дальность: { this.Range }");
         }
 
+        static void Main(string[] args)
+        {
+            Weapon scr = new Weapon();
+            scr.Input();
+            scr.Print();
+            Console.ReadKey();
+        }
 
     }
 }
